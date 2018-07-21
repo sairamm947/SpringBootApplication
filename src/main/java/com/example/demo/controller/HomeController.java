@@ -26,7 +26,7 @@ public class HomeController {
 	
 	@RequestMapping("dashboard")
 	public ModelAndView dashboard() {
-		log.info("Dashboard method Called.....");
+		log.info("Dashboard method Called..... for testing purpose");
 		ModelAndView mav=new ModelAndView("dashboard");
 		return mav;
 	}
