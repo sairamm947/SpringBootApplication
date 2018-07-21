@@ -23,4 +23,11 @@ public class HomeController {
 		ModelAndView mav=new ModelAndView("home");
 		return mav;
 	}
+	
+	@RequestMapping("dashboard")
+	public ModelAndView dashboard() {
+		log.info("Dashboard method Called.....");
+		ModelAndView mav=new ModelAndView("dashboard");
+		return mav;
+	}
 }
